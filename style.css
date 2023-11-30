@@ -5,6 +5,7 @@
   background-color: lightblue;
 }
 
+/* common style  */
 div,
 p,
 span,
@@ -18,18 +19,21 @@ button {
   background-color: transparent;
 }
 
+/* card container style  */
 .productContainer {
   width: 300px;
   margin-top: 50px;
   margin: 0 auto;
 }
 
+/* image style  */
 img {
   width: 300px;
   border-radius: 10px 10px 0 0;
   margin-bottom: -5px;
 }
 
+/* card wrapper style  */
 .cardWrap {
   background-color: white;
   padding: 20px 10px 10px 10px;
@@ -40,12 +44,14 @@ h2 {
   font-size: 24px;
 }
 
+/* details style  */
 p {
   margin-top: 10px;
   font-size: 14px;
   color: #777;
 }
 
+/* product price style */
 .price {
   display: flex;
   gap: 10px;
@@ -53,6 +59,7 @@ p {
   align-items: center;
 }
 
+/* headin tag styles */
 h3 {
   font-size: 22px;
   color: blue;
@@ -69,12 +76,14 @@ h4 {
   color: rgb(13, 147, 13);
 }
 
+/* prodcut quantity style  */
 .quantity {
   display: flex;
   gap: 15px;
   margin: 10px 0;
 }
 
+/* product count style  */
 #count {
   border: 1px solid #ddd;
   padding: 0 5px;
@@ -84,6 +93,7 @@ h4 {
   margin: 10px 0;
 }
 
+/* button style  */
 button {
   padding: 6px 10px;
   border: none;
@@ -93,12 +103,14 @@ button {
   color: white;
 }
 
+/* all product style  */
 .allProdcut {
   display: grid;
   height: 100vh;
   margin: 0 250px;
 }
 
+/* respondive with media query  */
 @media only screen and (min-width: 640px) {
   .allProdcut {
     grid-template-columns: repeat(3, 1fr);
