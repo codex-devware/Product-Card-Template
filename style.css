@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: lightblue;
+}
+
+div,
+p,
+span,
+a,
+h2,
+h3,
+h4,
+h5,
+svg,
+button {
+  background-color: transparent;
+}
+
+.productContainer {
+  width: 300px;
+  margin-top: 50px;
+  margin: 0 auto;
+}
+
+img {
+  width: 300px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: -5px;
+}
+
+.cardWrap {
+  background-color: white;
+  padding: 20px 10px 10px 10px;
+  border-radius: 0 0 10px 10px;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+}
+
+.price {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  align-items: center;
+}
+
+h3 {
+  font-size: 22px;
+  color: blue;
+}
+
+h5 {
+  font-size: 16px;
+  text-decoration: line-through;
+  color: #777;
+}
+
+h4 {
+  font-size: 18px;
+  color: rgb(13, 147, 13);
+}
+
+.quantity {
+  display: flex;
+  gap: 15px;
+  margin: 10px 0;
+}
+
+#count {
+  border: 1px solid #ddd;
+  padding: 0 5px;
+}
+
+.rating {
+  margin: 10px 0;
+}
+
+button {
+  padding: 6px 10px;
+  border: none;
+  background: blue;
+  font-weight: bold;
+  border-radius: 4px;
+  color: white;
+}
+
+.allProdcut {
+  display: grid;
+  height: 100vh;
+  margin: 0 250px;
+}
+
+@media only screen and (min-width: 640px) {
+  .allProdcut {
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-content: center;
+  }
+}
